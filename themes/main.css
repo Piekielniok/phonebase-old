@@ -4,6 +4,14 @@
     color: white;
 }
 
+.header{
+    background-color: rgba(0,0,0,0.2);
+    width: 100vw;
+    height: 9.5vw;
+    position: fixed;
+    transition: 0.2s;
+}
+
 .header > div {
     margin: 2vw 2vw 2vw 2vw;
     width: 20vw;
@@ -44,6 +52,7 @@
     font-size: 2vw;
     font-weight: bold;
     display: inline-block;
+    margin-top: 2.35vw;
 }
 
 @media (max-width: 1280px) {
