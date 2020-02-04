@@ -5,8 +5,7 @@
 }
 
 .header > div {
-    margin-left: 2vw;
-    margin-top: 2vw;
+    margin: 2vw 2vw 2vw 2vw;
     width: 20vw;
     height: 4.5vw;
     background-color: rgba(88,226,255,0.15);
@@ -15,29 +14,33 @@
     font-size: 3vw;
     text-align: center;
     padding-top: 1vw;
-    padding-bottom: 1vw;
 }
 
-.header > div > div > b {
+.header > div > span > b {
     font-weight: 700;
     color: deepskyblue;
 }
 
 .header > div > img {
-    margin-top: -1vw;
-    width: 2.5vw;
+    width: 2.37vw;
+    margin-bottom: -0.59vw;
+    margin-right: -1.3vw;
+    
 }
 
 .header > div ~ div > img {
-    width: 2vw;
+    width: 2.8vw;
+    vertical-align: middle;
+    margin-bottom: 0.3vw;
+    margin-right: 0vw;
 }
 
 .header > div ~ div {
     float: right;
     margin-left: 0;
-    margin-right: 2vw;
+    padding-top: 0.5vw;
     width: 15vw;
-    height: 3.5vw;
+    height: 4.2vw;
     font-size: 2vw;
     font-weight: bold;
     display: inline-block;
