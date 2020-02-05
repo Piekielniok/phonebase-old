@@ -1,7 +1,7 @@
 # Phonebase
 
 ## To do:
-☒ • Zmiana kursora na zasięg sieci<br>
+☑ • Zmiana kursora na zasięg sieci<br>
 ☐ • Przeprojektowanie logo na SVG (Całe logo oraz skrócone)<br>
 ☐ • Dźwięki po najechaniu na przyciski<br>
 ☐ •	W prawym górnym rogu dwa przyciski - **Telefony** i **Informacje**<br>

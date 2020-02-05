@@ -2,10 +2,7 @@
     background-color: #1d1d1d;
     font-family: Raleway;
     color: white;
-}
-
-.main div {
-    
+    cursor: url("../images/signal-strength-cursor.png"), auto;
 }
 
 .header {
@@ -14,9 +11,6 @@
     width: 100vw;
     height: 9.5vw;
     position: fixed;
-}
-
-.header-logo {
 }
 
 .header > div {
