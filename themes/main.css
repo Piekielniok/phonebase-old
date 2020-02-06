@@ -2,7 +2,7 @@
     background-color: #1d1d1d;
     font-family: Raleway;
     color: white;
-    cursor: url("../images/signal-strength-cursor.png"), auto;
+    cursor: url("../images/signal-strength-cursor.png"), default;
     padding-top: 0.001%;
 }
 
@@ -66,10 +66,14 @@ h2 {
     color: deepskyblue;
 }
 
-.header-logo > img {
-    width: 2.37vw;
-    margin-bottom: -0.59vw;
-    margin-right: -1.3vw;
+.header-logo > a {
+    cursor: url("../images/signal-strength-cursor.png"), default;
+    user-select: none;
+}
+
+.header-logo > a > img {
+    width: 18vw;
+    margin-bottom: -0.4vw;
     
 }
 
@@ -87,7 +91,6 @@ h2 {
 }
 
 .phones > div {
-    transition: 0.5s;
     display: inline-block;
 }
 
@@ -97,6 +100,7 @@ h2 {
 }
 
 .popular-phones {
+    width: 20vw;
     transition: 0.5s;
     display: none;
     opacity: 0;
@@ -104,10 +108,4 @@ h2 {
 
 .articles {
     display: none;
-}
-
-@media (max-width: 1280px) {
-    .header > div ~ div {
-        display: none;
-    }
 }

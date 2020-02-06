@@ -2,11 +2,11 @@
 
 ## To do:
 ☑ • Zmiana kursora na zasięg sieci<br>
-☐ • Przeprojektowanie logo na SVG (Całe logo oraz skrócone)<br>
+☑ • Przeprojektowanie logo na SVG (Całe logo oraz skrócone)<br>
 ☐ • Dźwięki po najechaniu na przyciski<br>
 ☐ •	W prawym górnym rogu dwa przyciski - **Telefony** i **Informacje**<br>
 ☐ •	Chowany header przy scrollowaniu<br>
-☐ • Po naciśnięciu logo **Phonebase**, przewijanie na górę strony<br>
+☑ • Po naciśnięciu logo **Phonebase**, przewijanie na górę strony<br>
 ☐ • ***Slider*** z artykułami (bootstrap)<br>
 ☑ • Napis ***Najlepsze telefony 2019 roku***<br>
 ☑ • Animacja 360* obrotu modelu 3D danego telefonu<br>
