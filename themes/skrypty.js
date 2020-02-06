@@ -1,5 +1,6 @@
 window.onscroll = function () {
     scrollFunction()
+    phoneAnimation()
 };
 
 function scrollFunction() {
@@ -19,3 +20,17 @@ function scrollFunction() {
 }
 
 //Sam sobie będziesz kurwa ten chowany pasek sobie ogarniał, bo ja już straciłem do niego cierpliwość...
+
+function phoneAnimation() {
+    var x, i;
+    x = document.querySelectorAll(".popular-phones");
+    
+    if (document.body.scrollTop > ((window.innerHeight)*0.4) || document.documentElement.scrollTop > ((window.innerHeight)*0.4)) {
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "inline-block";
+            x[i].style.opacity = "1";
+        }
+    }
+}
+
+
