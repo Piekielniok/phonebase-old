@@ -1,77 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    min-height: 3vw;
+}
+
+#img1,
+#img2,
+#img3,
+#img4 {
+    display: inline-block;
+    width: 2.5vw;
+    height: 2.5vw;
+    float: right;
+    margin-right: 1vw;
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+}
+
 .main {
     background-color: #1d1d1d;
     font-family: Raleway;
     color: white;
+    cursor: url("../images/signal-strength-cursor.png"), default;
 }
 
-.main div {
-    
-}
-
-.header {
-    transition: 0.2s;
-    background-color: rgba(0,0,0,0.2);
-    width: 100vw;
-    height: 9.5vw;
-    position: fixed;
-}
-
-.header-logo {
-}
-
-.header > div {
-    margin: 2vw 1vw 2vw 2vw;
-    width: 20vw;
-    height: 4.5vw;
-    background-color: rgba(88,226,255,0.15);
-    display: inline-block;
-    box-shadow: 0px 0px 5px black, 0px 0px 20px black;
-    font-size: 3vw;
-    text-align: center;
-    padding-top: 1vw;
-    user-select: none;
-}
-
-.header > div:hover {
-    background-color: rgba(88,226,255,0.6);
-}
-
-.header-logo ~ div {
-    margin-right: 1vw;
-    margin-left: 0vw;
-    padding-top: 0.5vw;
+.logo {
     width: 15vw;
-    height: 4.2vw;
+    transition: all 0.5s;
+    padding-top: 0.54vw;
+}
+
+.zdj {
+    width: 10vw;
+    margin-top: ;
+    float: right;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 5px black, 0px 0px 20px black;
+}
+
+#zdj {
+    margin-right: 1vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    padding: 1vw;
+}
+
+object {
+    pointer-events: none;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+
+h2 {
     font-size: 2vw;
-    font-weight: bold;
+}
+
+.phones {
+    padding-top: 2vw;
+    background-color: black;
+    height: 50vw;
+}
+
+.phones > div {
     display: inline-block;
 }
 
-.header-logo + div {
-    margin-left: 44vw;
+.phones > div > h2 {
+
+    min-width: 25vw;
 }
 
-.header b {
-    font-weight: 700;
-    color: deepskyblue;
+.popular-phones {
+    margin-top: 1vw;
+    width: 20vw;
+    transition: 0.5s;
+    display: none;
+    opacity: 0;
 }
 
-.header-logo > img {
-    width: 2.37vw;
-    margin-bottom: -0.59vw;
-    margin-right: -1.3vw;
-    
-}
-
-.header-logo ~ div > img {
-    width: 2.8vw;
-    vertical-align: middle;
-    margin-bottom: 0.3vw;
-    margin-right: 0vw;
-}
-
-@media (max-width: 1280px) {
-    .header > div ~ div {
-        display: none;
-    }
+.articles {
+    display: none;
 }

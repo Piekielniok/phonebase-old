@@ -1,21 +1,80 @@
 window.onscroll = function () {
     scrollFunction()
+    phoneAnimation()
 };
 
+window.onload = function () {
+    phoneAnimation()
+}
+function phoneAnimation() {
+    var x, i;
+    x = document.querySelectorAll(".popular-phones");
+    
+    var obserwator = new IntersectionObserver(function(entries) {
+        if(entries[0].isIntersecting === true) {
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "inline-block";
+                x[i].style.opacity = "1";
+            }
+        }
+    }, { threshold: [0.7] });
+
+    obserwator.observe(document.querySelector(".phones"));
+}
 function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.querySelector(".header").style.cssText = "height: 5vw";
-        document.querySelector(".header > div").style.cssText = "display: block; height: 3.7vw; width: 4.1vw; margin-top: 0.5vw; margin-left: 0.5vw; padding-top: 0.4vw; text-align: left;";
-        document.querySelector(".header-logo").innerHTML = "<img style='margin-right: -0.6vw;' src='images/logo-phone.png'><span>P</span>";
-        document.querySelector(".header-logo ~ div").innerHTML = "<img src='images/header-phones.png'><span style='display: inline-block; margin-top: -3vw;'>Telefony</span>";
-        document.querySelector(".header-logo ~ div").style.cssText = "display: inline-block; margin-top: -8vw;";
-    }
-    else {
-        document.querySelector(".header").style.cssText = "height: 9.5vw";
-        document.querySelector(".header-logo").innerHTML = "<img style='margin-right: -0.6vw;' src='images/logo-phone.png'><span>Phone<b>base</b></span>";
-        document.querySelector(".header > div").style.cssText = "margin: 2vw 1vw 2vw 2vw; display: inline-block; height: 4.5vw; width: 20vw; padding-top: 1vw; text-align: center;";
-        
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding="0.5vw";
+        document.getElementById("zdj").style.marginRight="0.5vw";
+        document.querySelector(".logo").style.paddingTop = "0.25vw";
+        document.querySelector(".logo").style.width = "7.5vw";
+        var x = document.querySelectorAll(".zdj");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.width = "5vw";
+            x[i].style.marginTop="0vw";
+        }
+    } else {
+        document.getElementById("navbar").style.padding="1vw"
+        document.getElementById("zdj").style.marginRight="1vw";
+        document.querySelector(".logo").style.paddingTop = "0.54vw";
+        document.querySelector(".logo").style.width = "15vw";
+        var x = document.querySelectorAll(".zdj");
+        var i;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.width = "10vw";
+            x[i].style.marginTop="0vw";
+        }
     }
 }
 
-//Sam sobie będziesz kurwa ten chowany pasek sobie ogarniał, bo ja już straciłem do niego cierpliwość...
+function onHover1() {
+    document.getElementById("img1").src = "images/whatsapp.png"
+}
+
+function offHover1() {
+    document.getElementById("img1").src = "images/whatsapp_szary.png"
+}
+
+function onHover2() {
+    document.getElementById("img2").src = "images/twitter.png"
+}
+
+function offHover2() {
+    document.getElementById("img2").src = "images/twitter_szary.png"
+}
+
+function onHover3() {
+    document.getElementById("img3").src = "images/instagram.png"
+}
+
+function offHover3() {
+    document.getElementById("img3").src = "images/instagram_szary.png"
+}
+
+function onHover4() {
+    document.getElementById("img4").src = "images/facebook.png"
+}
+
+function offHover4() {
+    document.getElementById("img4").src = "images/facebook_szary.png"
+}
