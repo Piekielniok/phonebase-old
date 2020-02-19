@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="themes/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="themes/main.css">
+    <link rel="stylesheet" type="text/css" href="themes/slider.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body class="main" id="top">
@@ -18,7 +20,51 @@
         <a href="#footer"><img class="zdj" src="images/info.png"></a>
         <a href="#phones"><img id="zdj" class="zdj" src="images/telefony.png"></a>
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="wrapper">
+        <input checked type=radio name="slider" id="slide1" />
+        <input type=radio name="slider" id="slide2" />
+        <input type=radio name="slider" id="slide3" />
+        <div class="slider-wrapper">
+            <div class=inner>
+                <article>
+                    <div class="info bottom-left">
+                        <h3>Malacca</h3>
+                    </div>
+                    <div class="zdjimg1"></div>
+                </article>
+
+                <article>
+                    <div class="info bottom-left">
+                        <h3>Cameron Highland</h3>
+                    </div>
+                    <div class="zdjimg2"></div>
+                </article>
+
+                <article>
+                    <div class="info bottom-left">
+                        <h3>New Delhi</h3>
+                    </div>
+                    <div class="zdjimg3"></div>
+                </article>
+            </div>
+            <!-- .inner -->
+        </div>
+        <!-- .slider-wrapper -->
+
+        <div class="slider-prev-next-control">
+            <label for=slide1></label>
+            <label for=slide2></label>
+            <label for=slide3></label>
+        </div>
+        <!-- .slider-prev-next-control -->
+
+        <div class="slider-dot-control">
+            <label for=slide1></label>
+            <label for=slide2></label>
+            <label for=slide3></label>
+        </div>
+        <!-- .slider-dot-control -->
+    </div>
     <div class="content">
         <div class="phones" id="phones"><br>
             <h1>Najlepsze smartfony 2019 roku</h1><br><br>
@@ -41,7 +87,7 @@
         <div class="articles">
         </div>
 
-        <div class="info"></div>
+        <div class="info1"></div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer id="footer">

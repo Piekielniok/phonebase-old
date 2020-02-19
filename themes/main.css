@@ -61,14 +61,12 @@ footer {
     position: fixed;
     width: 100%;
     padding: 1vw;
-}
-
-object {
-    pointer-events: none;
+    z-index: 99;
 }
 
 .content {
     text-align: center;
+    margin-top: 10vh;
 }
 
 h1 {
@@ -106,4 +104,8 @@ h2 {
 
 .articles {
     display: none;
+}
+#articles{
+    text-align: center;
+    padding-top: 6vw;
 }

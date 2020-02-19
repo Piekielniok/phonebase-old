@@ -7,7 +7,7 @@
 ☑ [O] • W prawym górnym rogu dwa przyciski - **Telefony** i **Informacje**<br>
 ☑ [O] •	Chowany header przy scrollowaniu<br>
 ☑ [P] • Po naciśnięciu logo **Phonebase**, przewijanie na górę strony<br>
-☐ [O] • ***Slider*** z artykułami (bootstrap)<br>
+☑ [O] • ***Slider*** z artykułami (bootstrap)<br>
 ☑ [P] • Napis ***Najlepsze telefony 2019 roku***<br>
 ☑ [P] • Animacja 360 obrotu modelu 3D danego telefonu<br>
 ☒ [P] • Po naciśnięcu na **Telefony** strona przewija się do ***Najlepsze telefony 2019 roku***, znika 5 najpopularniejszych i pojawia się lista telefonów<br>
