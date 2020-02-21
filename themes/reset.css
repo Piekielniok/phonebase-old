@@ -46,4 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-img[alt="www.000webhost.com"]{display:none;}
+
+div[style="text-align:center;font-size:11px;font-family:arial;background-color:black;color:white"] {
+        display: none;
+}
+
+.cbalink {
+        display: none;
+}
